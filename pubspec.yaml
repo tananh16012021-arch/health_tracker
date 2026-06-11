@@ -1,0 +1,32 @@
+name: health_tracker_rebuild
+description: A modern Flutter Firebase health tracking app with blood pressure tracking.
+publish_to: 'none'
+version: 2.1.0+3
+
+environment:
+  sdk: '>=3.7.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  firebase_core: ^4.10.0
+  firebase_auth: ^6.5.2
+  cloud_firestore: ^6.5.0
+  firebase_storage: ^13.4.2
+  image_picker: ^1.2.1
+  intl: ^0.20.2
+  shared_preferences: ^2.5.3
+  path_provider: ^2.1.5
+  share_plus: ^10.1.4
+  url_launcher: ^6.3.1
+  flutter_local_notifications: ^17.2.4
+  timezone: ^0.9.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
